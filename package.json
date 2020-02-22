@@ -8,10 +8,6 @@
     "release": "yarn build && yarn publish"
   },
   "author": "Chase McCoy <chasem000@gmail.com>",
-  "files": [
-    "resetti.css",
-    "resetti.min.css"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chasemccoy/resetti.git"
