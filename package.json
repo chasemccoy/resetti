@@ -1,6 +1,6 @@
 {
   "name": "resetti",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A bare-bones CSS reset for modern web development",
   "main": "resetti.min.css",
   "scripts": {
