@@ -1,0 +1,29 @@
+{
+  "name": "resetti",
+  "version": "1.0.0",
+  "description": "A bare-bones CSS reset for modern web development",
+  "main": "./resetti.min.css",
+  "scripts": {
+    "build": "uglifycss resetti.css > resetti.min.css"
+  },
+  "author": "Chase McCoy <chasem000@gmail.com>",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasemccoy/resetti.git"
+  },
+  "keywords": [
+    "css reset",
+    "modern css reset"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chasemccoy/resetti/issues"
+  },
+  "homepage": "https://github.com/chasemccoy/resetti#readme",
+  "devDependencies": {
+    "uglifycss": "^0.0.29"
+  }
+}
