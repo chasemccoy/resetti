@@ -1,14 +1,16 @@
 {
   "name": "resetti",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A bare-bones CSS reset for modern web development",
   "main": "./resetti.min.css",
   "scripts": {
-    "build": "uglifycss resetti.css > resetti.min.css"
+    "build": "uglifycss resetti.css > resetti.min.css",
+    "release": "yarn build && yarn publish"
   },
   "author": "Chase McCoy <chasem000@gmail.com>",
   "files": [
-    "dist"
+    "dist",
+    "resetti.cs"
   ],
   "repository": {
     "type": "git",
