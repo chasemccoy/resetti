@@ -1,7 +1,7 @@
 {
   "name": "resetti",
   "version": "1.0.4",
-  "description": "A bare-bones CSS reset for modern web development",
+  "description": "Resetti is a tiny, modern CSS reset with great defaults",
   "main": "resetti.min.css",
   "scripts": {
     "build": "uglifycss resetti.css > resetti.min.css",
@@ -14,7 +14,7 @@
   },
   "keywords": [
     "css reset",
-    "modern css reset"
+    "css"
   ],
   "license": "MIT",
   "bugs": {

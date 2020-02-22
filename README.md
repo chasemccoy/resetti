@@ -1,3 +1,7 @@
-# resetti.css
+<p align="center">
+  <img src="./resetti.png" alt="Mr. Resetti">
+</p>
 
-![Mr. Resetti](./resetti.png)
+<h1 align="center">resetti.css</h1>
+
+<p align="center">A tiny, modern CSS reset with great defaults</p>
