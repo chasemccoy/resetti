@@ -4,7 +4,7 @@
 
 <h1 align="center">resetti.css</h1>
 
-<p align="center">A tiny, modern CSS reset with great defaults | <b><a href="http://htmlpreview.github.io/?https://github.com/chasemccoy/resetti/blob/master/demo.html" title="See a demo">Demo</a></b></p>
+<p align="center">A tiny, modern CSS reset with great defaults | <b><a href="https://unpkg.com/resetti/demo.html" title="See a demo">Demo</a></b></p>
 
 <hr />
 
