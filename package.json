@@ -4,7 +4,7 @@
   "description": "Resetti is a tiny, modern CSS reset with great defaults",
   "main": "resetti.min.css",
   "scripts": {
-    "build": "uglifycss resetti.css > resetti.min.css",
+    "build": "uglifycss resetti.css | postcss --use autoprefixer --no-map > resetti.min.css",
     "release": "yarn build && yarn publish"
   },
   "author": "Chase McCoy <chasem000@gmail.com>",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/chasemccoy/resetti#readme",
   "devDependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss-cli": "^7.1.0",
     "uglifycss": "^0.0.29"
   }
 }
