@@ -22,8 +22,24 @@ Or use it from a CDN:
 <link rel="stylesheet" href="https://unpkg.com/resetti/resetti.min.css" />
 ```
 
-## 🛠 Variables
+## 🎨 Customize
+
+Resetti allows you to set some sane default values using CSS variables:
+
+- `--root-font-size`: set the root font size of the document, changing the value of the `rem` unit
+
+You can set these values like this:
+
+```
+:root {
+  --root-font-size: 18px;
+}
+```
+
+Note that Resetti doesn't make any assumptions about your project. If you don't set these values, they will remain undefined. 
+
+## 🛠 Extras
 
 Resetti sets a few CSS variables on the `:root` scope that may be useful in your project:
 
-- `--system-fonts` — system font stack
+- `--system-fonts`: system font stack
