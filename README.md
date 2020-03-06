@@ -30,7 +30,7 @@ Resetti allows you to set some sane default values using CSS variables:
 
 You can set these values like this:
 
-```
+```css
 :root {
   --root-font-size: 18px;
 }

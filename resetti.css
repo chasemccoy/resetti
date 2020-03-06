@@ -1,7 +1,6 @@
 /* Make some useful variables available in the global scope */
 :root {
   --system-fonts: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: var(--root-font-size);
 }
 
 body,
@@ -47,14 +46,9 @@ td {
 }
 
 html {
+  font-size: var(--root-font-size);
   line-height: 1.5;
   scroll-behavior: smooth;
-}
-
-* {
-  font-family: inherit;
-  font-size: inherit;
-  line-height: inherit;
 }
 
 *,
@@ -117,7 +111,7 @@ pre {
 /* Forms
   * *********************************** */
 [type='search']::-webkit-search-decoration {
-  -webkit-appearance: none;
+  appearance: none;
 }
 
 /* Attributes & states
@@ -143,11 +137,7 @@ button {
   cursor: not-allowed;
 }
 
-/*
-  * 1. Remove the tapping delay in IE 10.
-  * 2. Remove the tapping delay on clickable elements
-  in all browsers.
-  */
+/* Remove the tapping delay on clickable elements in all browsers. */
 a,
 area,
 button,
@@ -158,6 +148,6 @@ summary,
 textarea,
 details,
 [tabindex] {
-  -ms-touch-action: manipulation; /* 1 */
-  touch-action: manipulation; /* 2 */
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
 }
