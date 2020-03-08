@@ -59,6 +59,18 @@ html {
 
 /* Elements
   * *********************************** */
+
+/* Taken from CSS Remedy (https://github.com/mozdevs/cssremedy):
+
+  > Some user agents stylesheets customize header styles when they are within elements like aside, article, nav, or section. This switches to rem units for headings. The initial values are based on existing browser defaults. 
+*/
+h1 { font-size: 2rem; }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.17rem; }
+h4 { font-size: 1.00rem; }
+h5 { font-size: 0.83rem; }
+h6 { font-size: 0.67rem; }
+
 abbr[title] {
   text-decoration: underline;
   text-decoration: underline dotted;
